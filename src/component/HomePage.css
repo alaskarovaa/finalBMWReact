@@ -1,0 +1,30 @@
+.container-flex{
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(200deg,#333 20%,#000 100%);
+}
+.container-flex .left-box{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-flex .left-box h1{
+    font-size: 50px;
+}
+.span-lightblue{
+    color: rgb(62, 130, 255);
+    text-shadow: 1px 2px 2px #333;
+}
+.span-blue{
+    color: rgb(62, 130, 255);
+    text-shadow: 1px 2px 2px #333;
+}
+.span-red{
+    color: rgb(62, 130, 255);
+    text-shadow: 1px 2px 2px #333;;
+}
+.container-flex .left-box , .container-flex .right.box{
+    width: 50%;
+}
